@@ -29,5 +29,6 @@ $ pip install -r requirements.txt
 ## Quitter l’environnement : Dès que tu as fini de travailler sur le projet
 
 ```bash
+$ pip freeze > requirements.txt
 $ deactivate
 ```
