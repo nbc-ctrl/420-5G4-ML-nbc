@@ -11,6 +11,8 @@
 $ apt install python3.12-venv
 $ python3 -m venv .venv
 $ source .venv/bin/activate
+$ pip install requests matplotlib # un exemple d'une installation qui fait que la ligne suivante ne retourne rien de vide
+$ pip freeze > requirements.txt
 ```
 
 ## Sur une autre machine, il suffira de réinstaller le tout avec
