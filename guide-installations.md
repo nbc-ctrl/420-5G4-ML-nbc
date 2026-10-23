@@ -4,6 +4,9 @@
 
 - Juppyter (fourni par Microsoft)
 - Python (fourni par Microsoft)
+- Rainbow CSV
+- markdownlint
+- Markdown Preview Enhanced
 
 ## Installations (cmd)
 
@@ -12,6 +15,8 @@ $ apt install python3.12-venv
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install requests matplotlib # un exemple d'une installation qui fait que la ligne suivante ne retourne rien de vide
+$ pip freeze > requirements.txt
+$ pip install pandas
 $ pip freeze > requirements.txt
 ```
 
