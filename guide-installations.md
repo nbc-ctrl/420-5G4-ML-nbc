@@ -12,6 +12,7 @@
 
 ```bash
 $ apt install python3.12-venv
+$ sudo apt install python3-pip
 $ python3 -m venv .venv
 $ source .venv/bin/activate
 $ pip install requests matplotlib # un exemple d'une installation qui fait que la ligne suivante ne retourne rien de vide
