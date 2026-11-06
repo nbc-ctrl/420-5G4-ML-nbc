@@ -21,3 +21,28 @@
 - `go`
 - `compact`
 - `export`
+
+## Étapes
+
+1. `cd agent`
+1. `ctrl` + `shift` + `p` > "_Dec Containers: Open Folder in Container_" > open < show logs
+1. Dans un autre terminal, toujours dans le repertoire `agent` :
+
+```bash
+mkdir build
+cd build/
+cmake ..
+make
+```
+
+```bash
+./bibliotheque -d ../data/ # tester le fonctionnement de l'application
+```
+
+1. Aller sur [ollama.com/download](https://ollama.com/download), copier la commande pour installer ollama dans le devcontainer
+1. dans le terminal, copier la commande
+1. Puis...
+
+```bash
+ollama signin
+```
