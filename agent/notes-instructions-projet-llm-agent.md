@@ -44,5 +44,5 @@ make
 1. Puis...
 
 ```bash
-ollama signin
+ollama signin 6:05
 ```
